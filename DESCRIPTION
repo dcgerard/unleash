@@ -1,0 +1,14 @@
+Package: unleash
+Type: Package
+Title: UNimodally Leveraging Empirical-null with Adaptive SHrinkage
+Version: 0.1.0
+Authors@R: person("David", "Gerard", email = "dcgerard@uchicago.edu", role = c("aut", "cre"))
+Description: Combines the ideas of Efron's "empirical null" and Stephens' "adaptive shrinkage".
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
+RoxygenNote: 6.0.1
+Imports: ggplot2,
+    assertthat,
+    ashr
